@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style-register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <title></title>
+    <link th:href="@{/styles/style-register.css}" rel="stylesheet">
+</head>
+<body>
+    <div class="intro">
+      <div class="login__form">
+        <div class="info__login">
+          <div class="photo__logo">
+            <img style="width: 50px" src="../images/config/other/triangular.png">
+          </div>
+          <div class="description">
+              <div class="current__description">
+                    <h1 class="title__description">REGISTER</h1>
+                    <form th:method="GET" th:action="@{/tryToRegister}" th:object="${unregisteredCustomer}">
+                        <center>
+                          <input class="input__el" th:style="${nameStyle}" th:field="*{name}" placeholder="Name" type="text"><br><br>
+                          <input class="input__el" th:style="${surnameStyle}" th:field="*{surname}" placeholder="Surname" type="text"><br><br>
+                          <input class="input__el" th:style="${usernameStyle}" th:field="*{username}" placeholder="Username" type="text"><br><br>
+                            <ul class="text-danger" th:each="error: ${#fields.errors('username')}">
+                                <li th:each="message : ${error.split(',')}">
+                                    <p class="error-message" th:text="${message}"></p>
+                                </li>
+                            </ul>
+                          <input class="input__el" th:style="${emailStyle}" th:field="*{email}" placeholder="Email" type="email"><br><br>
+                          <input class="input__el" th:style="${passwordStyle}" th:field="*{password}" placeholder="Password" type="password">
+                            <ul class="text-danger" th:each="error: ${#fields.errors('password')}">
+                                <li th:each="message : ${error.split(',')}">
+                                      <p class="error-message" th:text="${message}"></p>
+                                </li>
+                            </ul>
+                          <input type="hidden" th:field="*{dateRegistration}">
+                          <button class="button__sing__in">Join</button>
+                        </center>
+                    </form>
+              </div>
+          </div>
+
+        </div>
+        <div class="photo__login">
+
+        </div>
+      </div>
+    </div>
+</body>
+</html>

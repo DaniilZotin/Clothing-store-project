@@ -1,0 +1,1093 @@
+.intro{
+    width: 100%;
+    height: 900px;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.button__logo{
+    background-color: transparent;
+    border-style: none;
+    border-color: transparent;
+}
+
+
+.category-form {
+    display: inline-block;
+}
+
+.general{
+    margin-top: 45px;
+    width: 75%;
+    height: 1000px;
+
+    background-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    width: 100%;
+    height: 200px;
+
+    background-color: white;
+
+    display: flex;
+}
+
+.category__small{
+    width: 34%;
+    height: 100%;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title__text{
+    width: 34%;
+    height: 100%;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basket__logo{
+    width: 34%;
+    height: 100%;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__category{
+    background-color: transparent;
+    border-style: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+    transition: 0.3s;
+}
+
+.button__category:hover{
+    color: green;
+}
+
+.button__category:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    opacity: 0;
+
+    background-color: green;
+
+    transition: opacity 0.3s linear;
+}
+
+.button__category:hover:after{
+    opacity: 1;
+}
+
+.title__head__text{
+    font-size: 40px;
+    font-family: 'Charmonman', cursive;
+}
+
+
+
+.image__basket{
+    width: 25px;
+    margin-bottom: 5px;
+}
+.button__card{
+    background-color: transparent;
+    border-style: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.button__card:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    opacity: 0;
+
+    background-color: green;
+
+    transition: opacity 0.3s linear;
+}
+
+.button__card:hover{
+    color: green;
+}
+
+.button__card:hover:after{
+    opacity: 1;
+}
+
+
+
+
+
+.category__people{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block__chose{
+    width: 80%;
+    height: 100%;
+
+    background-color: lightcyan;
+    display: flex;
+}
+
+.text__title__category{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+.women__block{
+    width: 34%;
+    height: 100%;
+    background-color: lightsalmon;
+
+    background: url("../images/config/category/womenBlock.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.men__block{
+    width: 34%;
+    height: 100%;
+    background-color: lightsteelblue;
+
+    background: url("../images/config/category/menBlock.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+
+}
+
+.kids__block{
+    width: 34%;
+    height: 100%;
+    background-color: lightpink;
+
+    background: url("../images/config/category/kidsBlock.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.wrapper__button{
+    margin-top: auto;
+    width: 100%;
+    height: 40px;
+}
+
+.button__women,
+.button__men,
+.button__kids{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);/*прозоро чорний*/
+    border-style: none;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+    transition: 0.7s;
+
+}
+
+.button__women:hover,
+.button__men:hover,
+.button__kids:hover{
+    background-color: black;
+}
+
+
+.why__we{
+    width: 100%;
+    height: 380px;
+
+
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.first__benefit,
+.second__benefit,
+.third__benefit{
+    width: 34%;
+    height: 100px;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.circle{
+    width: 110px;
+    height: 110px;
+
+    background-color: #E8E8E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100px;
+}
+
+.description__benefit{
+    width: 80%;
+    height: 270px;
+
+    background-color: transparent;
+}
+.wrapper__benefit{
+    width: 100%;
+    height: 100px;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.info__about__each__benefit{
+    width: 100%;
+    height: 180px;
+
+    display: flex;
+
+    background-color: white;
+}
+
+.info__first,
+.info__second,
+.info__third{
+    width: 34%;
+    height: 180px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: transparent;
+}
+
+.text__about__benefit{
+    width: 75%;
+    height: 100px;
+
+    background-color: white;
+}
+
+.title__text__benefit{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+    color: grey;
+}
+.general__text__benefit{
+    font-size: 18px;
+
+    color: grey;
+}
+
+.company__colobarate{
+    width: 100%;
+    height: 100px;
+
+    background-color: white;
+    display: flex;
+}
+
+.company__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 20%;
+    height: 80px;
+    background-color: white;
+}
+
+.about__us{
+    margin-top: 250px;
+    width: 100%;
+    height: 900px;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.general__slider__title{
+    width: 80%;
+    height: 600px;
+
+    text-align: center;
+    background-color: white;
+}
+
+.slider__prepare{
+    width: 100%;
+    height: 650px;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider__current{
+    width: 75%;
+    height: 100%;
+
+    background-color: white;
+}
+
+
+.main__header{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 45px;
+}
+
+.el__nav{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+
+    display: inline-block;
+
+}
+
+
+.el__nav:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    opacity: 0;
+
+    background-color: white;
+
+    transition: 0.7s linear;
+}
+
+.el__nav:hover:after{
+    opacity: 1;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-inline: 70px;
+}
+.why__we{
+    margin-top: 25px;
+}
+
+.image__deliver{
+    width: 75px;
+}
+
+.image__measure{
+    width: 79px;
+}
+
+.image__payment{
+    width: 62px;
+}
+
+.logo__image{
+    width: 43px;
+}
+
+
+/*Photo logo*/
+
+.logoAdidas{
+    width: 75px;
+}
+.logoNike{
+    width: 80px;
+}
+.logoAsics{
+    width: 100px;
+}
+.logoLacoste{
+    width: 80px;
+}
+.logoMango{
+    width: 80px;
+}
+.logologoRiverIsland{
+    width: 130px;
+}
+/*************/
+
+/****************************Slider styles starts****************************/
+
+
+img {
+    max-width: 100%;
+}
+
+.slider-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu {
+    position: absolute;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    bottom: 0;
+}
+
+.menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+}
+
+
+.menu label:hover {
+    background: red;
+}
+
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s 0.75s;
+}
+
+[id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
+
+.slide-1 {
+    background-image: url("../images/config/shop/shop1.jpg");
+}
+.slide-2 {
+    background-image: url("../images/config/shop/shop2.jpg");
+}
+.slide-3 {
+    background-image: url("../images/config/shop/shop3.jpg");
+}
+
+.slide-4 {
+    background-image: url("../images/config/shop/shop4.jpg");
+}
+
+.slide-5 {
+    background-image: url("../images/config/shop/shop5.jpg");
+}
+
+
+/****************************Slider styles ends****************************/
+
+
+
+@media (max-width: 1430px) {
+
+    .general{
+        width: 80%;
+    }
+
+    .general__text__benefit{
+        font-size: 16px;
+    }
+
+
+}
+
+@media (max-width: 1250px) {
+    .general{
+        width: 80%;
+        height: 900px;
+    }
+    .title{
+        height: 140px;
+    }
+    .category__people{
+        width: 100%;
+        height: 400px;
+    }
+    .button__women,
+    .button__men,
+    .button__kids{
+        height: 40px;
+    }
+
+    .men__block{
+        width: 250px;
+    }
+    .women__block{
+        width: 250px;
+    }
+    .kids__block{
+        width: 250px;
+    }
+    .block__chose {
+        width: 710px;
+    }
+    .why__we{
+        width: 100%;
+    }
+    .description__benefit{
+        width: 710px;
+    }
+    .about__us{
+        margin-top: 10px;
+    }
+    .about__us{
+        height: 900px;
+    }
+    .slider__prepare{
+        height: 400px;
+    }
+    .slider__current{
+        width: 710px;
+    }
+
+    .image__deliver{
+        width: 60px;
+    }
+    .image__measure{
+        width: 64px;
+    }
+
+    .image__payment{
+        width: 52px;
+    }
+    .circle{
+        width: 95px;
+        height: 95px;
+    }
+    .title__text__benefit{
+        font-size: 18px;
+    }
+    .text__title__category{
+        font-size: 30px;
+    }
+
+    .general__text__benefit{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 910px) {
+
+    .intro{
+        height: 900px;
+    }
+
+    .general{
+        width: 540px;
+        height: 900px;
+    }
+
+    .title{
+        height: 110px;
+    }
+    .button__category{
+        font-size: 16px;
+    }
+    .title__head__text{
+        font-size: 30px;
+    }
+    .button__card{
+        font-size: 16px;
+    }
+    .main__header{
+        height: 40px;
+    }
+    .el__nav{
+        font-size: 17px;
+    }
+    .text__title__category{
+        font-size: 20px;
+    }
+    /*Start*/
+    .category__people{
+        width: 100%;
+        height: 300px;
+    }
+    .button__women,
+    .button__men,
+    .button__kids{
+        margin-top: 10px;
+        height: 30px;
+    }
+
+    .men__block{
+        width: 182px;
+    }
+    .women__block{
+        width: 182px;
+    }
+    .kids__block{
+        width: 182px;
+    }
+    .block__chose {
+        width: 600px;
+    }
+
+    .category__small,
+    .title__text,
+    .basket__logo{
+        width: 180px;
+    }
+
+
+    .image__deliver{
+        width: 52px;
+    }
+    .image__measure{
+        width: 54px;
+    }
+
+    .image__payment{
+        width: 42px;
+    }
+    .circle{
+        width: 90px;
+        height: 90px;
+    }
+    .title__text__benefit{
+        font-size: 17px;
+    }
+    .text__title__category{
+        font-size: 25px;
+    }
+
+    .general__text__benefit{
+        font-size: 15px;
+    }
+
+    .info__first,
+    .info__second,
+    .info__third{
+        width: 170px;
+    }
+
+    .about__us{
+        height: 600px;
+    }
+
+    .slider__prepare{
+        height: 300px;
+    }
+    .slider__current{
+        width: 550px;
+    }
+
+    .title__slider{
+        font-size: 28px;
+    }
+
+    .logoAdidas{
+        width: 60px;
+    }
+    .logoNike{
+        width: 55px;
+    }
+    .logoAsics{
+        width: 80px;
+    }
+    .logoLacoste{
+        width: 60px;
+    }
+    .logoMango{
+        width: 60px;
+    }
+    .logologoRiverIsland{
+        width: 130px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .general{
+        width: 340px;
+        height: 700px;
+    }
+
+    .intro{
+        height: 700px;
+    }
+
+    .title{
+        height: 80px;
+    }
+
+    .button__category{
+        font-size: 12px;
+    }
+    .title__head__text{
+        font-size: 19px;
+    }
+    .button__card{
+        font-size: 12px;
+    }
+    .main__header{
+        height: 28px;
+    }
+    .el__nav{
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .text__title__category{
+        font-size: 18px;
+    }
+    .logo__image{
+        width: 28px;
+        height: 28px;
+    }
+    .header__wrapper{
+        padding-inline: 10px;
+    }
+
+    /*Start*/
+    .category__people{
+        width: 100%;
+        height: 200px;
+    }
+    .button__women,
+    .button__men,
+    .button__kids{
+        margin-top: 20px;
+        height: 20px;
+        font-size: 15px;
+    }
+
+    .men__block{
+        width: 104px;
+    }
+    .women__block{
+        width: 104px;
+    }
+    .kids__block{
+        width: 104px;
+    }
+    .block__chose {
+        width: 310px;
+    }
+
+    /*Continue*/
+
+    .description__benefit{
+        width: 340px;
+    }
+
+
+    .image__deliver{
+        width: 42px;
+    }
+    .image__measure{
+        width: 44px;
+    }
+
+    .image__payment{
+        width: 32px;
+    }
+    .circle{
+        width: 75px;
+        height: 75px;
+    }
+
+    .title__text__benefit{
+        font-size: 14px;
+    }
+
+    .general__text__benefit{
+        font-size: 12px;
+    }
+
+    .info__first,
+    .info__third,
+    .info__second{
+        align-items: flex-start;
+
+    }
+
+    /*Logos*/
+    .logoAdidas{
+        width: 45px;
+    }
+    .logoNike{
+        width: 45px;
+    }
+    .logoAsics{
+        width: 70px;
+    }
+    .logoLacoste{
+        width: 50px;
+    }
+    .logoMango{
+        width: 50px;
+    }
+    .logologoRiverIsland{
+        width: 200px;
+    }
+
+    .title__slider{
+        font-size: 18px;
+    }
+
+    .slider__prepare{
+        height: 17vh;
+    }
+
+    .menu label{
+        width: 13px;
+        height: 13px;
+    }
+
+    .general__slider__title{
+        height: 300px;
+    }
+
+    .about__us{
+        height: 350px;
+    }
+
+    .slider__current{
+        width: 300px;
+    }
+
+
+}
+
+
+@media (max-width: 360px) {
+    .general{
+        width: 270px;
+        height: 700px;
+    }
+
+    .company__colobarate{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .intro{
+        height: 600px;
+    }
+
+
+    .title{
+        height: 60px;
+    }
+
+    .button__category{
+        font-size: 11px;
+    }
+    .title__head__text{
+        font-size: 17px;
+    }
+    .button__card{
+        font-size: 12px;
+    }
+    .main__header{
+        height: 25px;
+    }
+    .el__nav{
+        font-size: 12px;
+        margin-left: 7px;
+    }
+    .text__title__category{
+        font-size: 15px;
+    }
+    .logo__image{
+        width: 25px;
+        height: 25px;
+    }
+    .header__wrapper{
+        padding-inline: 5px;
+    }
+
+    /*Start*/
+    .category__people{
+        width: 100%;
+        height: 200px;
+    }
+    .button__women,
+    .button__men,
+    .button__kids{
+        margin-top: 20px;
+        height: 20px;
+        font-size: 15px;
+    }
+
+    .men__block{
+        width: 87px;
+    }
+    .women__block{
+        width: 87px;
+    }
+    .kids__block{
+        width: 87px;
+    }
+    .block__chose {
+        width: 260px;
+        height: 170px;
+    }
+
+
+    /*Continue*/
+
+    .description__benefit{
+        width: 265px;
+    }
+
+
+    .image__deliver{
+        width: 32px;
+    }
+    .image__measure{
+        width: 34px;
+    }
+
+    .image__payment{
+        width: 22px;
+    }
+    .circle{
+        width: 65px;
+        height: 65px;
+    }
+
+    .title__text__benefit{
+        font-size: 14px;
+    }
+
+    .general__text__benefit{
+        display: none;
+    }
+
+    .info__about__each__benefit{
+        height: 100px;
+
+
+    }
+
+    .info__first,
+    .info__third,
+    .info__second{
+        align-items: flex-start;
+        height: 60px;
+
+
+
+    }
+
+    .company__logo{
+        height: 5px;
+    }
+
+    .company__colobarate{
+        width: 260px;
+        height: 100px;
+
+
+
+    }
+
+    .company__logo:nth-child(6) {
+        display: none;
+    }
+
+    .info__about__each__benefit{
+        height: 60px;
+    }
+
+    .text__about__benefit{
+        height: 60px;
+    }
+
+    .description__benefit{
+        height: 300px;
+    }
+
+    .main__header{
+        width: 100%;
+    }
+
+
+}

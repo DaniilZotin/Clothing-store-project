@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h3>He sent letter to your email, check and enter code in this field</h3>
+    <form th:method="GET" th:action="@{/getConfirmRegister}" th:object="${number}">
+        <div th:object="${emailToSend}" >
+            <input type="text" placeholder="input your number" name="number" id="number">
+            <input type="hidden" th:value="${emailToSend}" name="emailToSend" id="emailToSend1">
+            <button>Submit</button>
+        </div>
+    </form>
+    <br>
+    <form th:method="GET" th:action="@{/sendLetterAgain}" th:object="${emailToSend}">
+        <input type="hidden" th:value="${emailToSend}" name="emailToSend" id="emailToSend2">
+        <button>Send again</button>
+    </form>
+    <p th:text="${errorConfirmPassword}"></p>
+</body>
+</html>

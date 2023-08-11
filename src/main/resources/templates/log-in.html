@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <title>Title</title>
+    <link th:href="@{/styles/style-log-in.css}" rel="stylesheet">
+</head>
+<body>
+    <div class="intro">
+        <div class="login__form">
+            <div class="photo__login">
+
+            </div>
+            <div class="info__login">
+                <div class="description">
+                    <form th:method="GET" th:action="@{/log_in}" th:object="${customer}">
+                        <h1 class="title__description">ACCOUNT LOGIN</h1>
+                        <div class="input-group">
+                            <input class="input__username" placeholder="Username"   type="text" name="username" id="username" >
+                            <input class="input__password" placeholder="Password"  th:field="*{password}" type="password" name="password" id="password" >
+                        </div>
+                        <center>
+                            <button class="button__sing__in">SING IN</button>
+                        </center>
+                    </form>
+                    <form th:method="GET" th:action="@{/register}">
+                        <center>
+                            <button class="button__register">Don`t you have an account ? Register</button>
+                        </center>
+                    </form>
+                    <p class="text__error" th:text="${message}"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

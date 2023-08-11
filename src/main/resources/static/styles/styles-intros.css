@@ -1,0 +1,522 @@
+.intro{
+    width: 100%;
+    height: 100vh;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.general{
+    margin-top: 45px;
+    width: 75%;
+    height: 120vh;
+
+    background-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    width: 100%;
+    height: 20vh;
+
+    background-color: white;
+
+    display: flex;
+}
+
+.category__small{
+    width: 34%;
+    height: 20vh;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title__text{
+    width: 34%;
+    height: 20vh;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basket__logo{
+    width: 34%;
+    height: 20vh;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__category{
+    background-color: transparent;
+    border-style: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+
+    transition: 0.3s;
+}
+
+.category-form {
+    display: inline-block;
+}
+
+.button__category:hover{
+    color: green;
+}
+
+.button__category:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    opacity: 0;
+
+    background-color: green;
+
+    transition: opacity 0.3s linear;
+}
+
+.button__category:hover:after{
+    opacity: 1;
+}
+
+.title__head__text{
+    font-size: 40px;
+    font-family: 'Charmonman', cursive;
+}
+
+.image__basket{
+    width: 25px;
+    margin-bottom: 5px;
+}
+.button__card{
+    background-color: transparent;
+    border-style: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.button__card:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    opacity: 0;
+
+    background-color: green;
+
+    transition: opacity 0.3s linear;
+}
+
+.button__card:hover{
+    color: green;
+}
+
+.button__card:hover:after{
+    opacity: 1;
+}
+
+
+
+
+
+.category__people{
+    width: 100%;
+    height: 65vh;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block__chose{
+    width: 80%;
+    height: 60vh;
+
+    background-color: lightcyan;
+    display: flex;
+}
+
+.text__title__category{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+.women__block{
+    width: 34%;
+    height: 60vh;
+    background-color: lightsalmon;
+
+    background: url("../images/config/category/womenBlock.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.men__block{
+    width: 34%;
+    height: 60vh;
+    background-color: lightsteelblue;
+
+    background: url("../images/config/category/menBlock.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+
+}
+
+.kids__block{
+    width: 34%;
+    height: 60vh;
+    background-color: lightpink;
+
+    background: url("../images/config/category/kidsBlock.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.wrapper__button{
+    margin-top: auto;
+    width: 100%;
+    height: 40px;
+}
+
+.button__women,
+.button__men,
+.button__kids{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);/*прозоро чорний*/
+    border-style: none;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+    transition: 0.7s;
+
+}
+
+.button__women:hover,
+.button__men:hover,
+.button__kids:hover{
+    background-color: black;
+}
+
+
+.why__we{
+    width: 100%;
+    height: 40vh;
+
+
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.first__benefit,
+.second__benefit,
+.third__benefit{
+    width: 34%;
+    height: 12vh;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.circle{
+    width: 110px;
+    height: 110px;
+
+    background-color: #E8E8E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100px;
+}
+
+.description__benefit{
+    width: 80%;
+    height: 30vh;
+
+    background-color: olive;
+}
+.wrapper__benefit{
+    width: 100%;
+    height: 10vh;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.info__about__each__benefit{
+    margin-top: 10px;
+    width: 100%;
+    height: 20vh;
+
+    display: flex;
+
+    background-color: white;
+}
+
+.info__first,
+.info__second,
+.info__third{
+    width: 34%;
+    height: 20vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: transparent;
+}
+
+.text__about__benefit{
+    width: 75%;
+    height: 12vh;
+
+    background-color: white;
+}
+
+.title__text__benefit{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+    color: grey;
+}
+.general__text__benefit{
+    font-size: 18px;
+
+    color: grey;
+}
+
+.company__colobarate{
+    width: 100%;
+    height: 10vh;
+
+    background-color: white;
+    display: flex;
+}
+
+.company__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 20%;
+    height: 10vh;
+    background-color: white;
+}
+
+.about__us{
+    margin-top: 250px;
+    width: 100%;
+    height: 100vh;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.general__slider__title{
+    width: 80%;
+    height: 60vh;
+
+    text-align: center;
+    background-color: white;
+}
+
+.slider__prepare{
+    width: 100%;
+    height: 65vh;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider__current{
+    width: 75%;
+    height: 65vh;
+
+    background-color: white;
+}
+
+
+.main__header{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 45px;
+}
+
+.el__nav{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+
+    display: inline-block;
+
+}
+
+
+.el__nav:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    opacity: 0;
+
+    background-color: white;
+
+    transition: 0.7s linear;
+}
+
+.el__nav:hover:after{
+    opacity: 1;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-inline: 70px;
+}
+
+
+
+/****************************Slider styles starts****************************/
+
+
+img {
+    max-width: 100%;
+}
+
+.slider-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu {
+    position: absolute;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    bottom: 0;
+}
+
+.menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+}
+
+.menu label:hover {
+    background: red;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s 0.75s;
+}
+
+[id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
+
+.slide-1 {
+    background-image: url("../images/config/shop/shop1.jpg");
+}
+.slide-2 {
+    background-image: url("../images/config/shop/shop2.jpg");
+}
+.slide-3 {
+    background-image: url("../images/config/shop/shop3.jpg");
+}
+
+.slide-4 {
+    background-image: url("../images/config/shop/shop4.jpg");
+}
+
+.slide-5 {
+    background-image: url("../images/config/shop/shop5.jpg");
+}
+
+
+
+
+/****************************Slider styles ends****************************/
+
+
+
+
+
+
+

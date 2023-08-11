@@ -1,0 +1,579 @@
+.intro{
+    background-color: transparent;
+    width: 100%;
+    height: 700px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__logo{
+    background-color: transparent;
+    border-style: none;
+    border-color: transparent;
+}
+
+.main__logo{
+    width: 45px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.general{
+    margin-top: 90px;
+    background-color: transparent;
+    width: 80%;
+    height: 700px;
+}
+
+.main__header{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 45px;
+}
+
+.el__nav{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+
+    display: inline-block;
+
+}
+
+
+.el__nav:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    opacity: 0;
+
+    background-color: white;
+
+    transition: 0.7s linear;
+}
+
+.el__nav:hover:after{
+    opacity: 1;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding-inline: 70px;
+}
+
+.title{
+    width: 100%;
+    height: 145px;
+
+    background-color: white;
+
+    display: flex;
+}
+
+.category__small{
+    width: 34%;
+    height: 100%;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title__text{
+    width: 34%;
+    height: 100%;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basket__logo{
+    width: 34%;
+    height: 100%;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title__head__text{
+    font-size: 40px;
+    font-family: 'Charmonman', cursive;
+}
+
+.image__basket{
+    width: 25px;
+    margin-bottom: 5px;
+}
+.button__card{
+    background-color: transparent;
+    border-style: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+.button__card:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    opacity: 0;
+
+    background-color: green;
+
+    transition: opacity 0.3s linear;
+}
+
+.button__card:hover{
+    color: green;
+}
+
+.button__card:hover:after{
+    opacity: 1;
+}
+
+.current__good{
+    width: 100%;
+    height: 300px;
+
+    background-color: transparent;
+
+    display: flex;
+
+    margin-bottom: 15px;
+}
+
+.wrrapper__shopping__bag{
+    width: 100%;
+    height: 500px;
+    background-color: transparent;
+    display: flex;
+}
+
+.goods{
+    width: 70%;
+    height: 100%;
+    min-height: 500px;
+    background-color: transparent;
+}
+.payment{
+    width: 30%;
+    height: 350px;
+    background-color: transparent;
+}
+
+.information__good{
+    width: 100%;
+    background-color: transparent;
+    height: 300px;
+
+    position: relative;
+}
+.image__current{
+    height: 300px;
+
+    transition: 0.7s;
+}
+.name__section{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.price__one__section{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+.quantity__section{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+.wrapper__total{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    margin: 20px;
+}
+.photo__good{
+    margin-right: 15px;
+    height: 100%;
+}
+
+.title__payment{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+}
+.subtotal{
+    margin-top: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shipping{
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.line{
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    margin-top: 40px;
+}
+.total{
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.purchase__button{
+    width: 100%;
+    margin-top: 30px;
+    background-color: black;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-style: none;
+    padding:15px;
+
+    transition: 0.7s;
+
+
+}
+
+.purchase__button:hover{
+    background-color: #717171;
+
+}
+
+.button__current__good{
+    border-style: none;
+    background-color: transparent;
+}
+
+.image__current:hover{
+    background-color: #16356E;
+    background-blend-mode: screen;
+    filter: brightness(80%);
+}
+
+
+
+@media (max-width: 1350px) {
+    .general{
+        width: 1000px;
+    }
+    .description__clothing{
+        height: 138px;
+        background-color: transparent;
+    }
+    .describe__clothes{
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .general{
+        width: 768px;
+    }
+    .describe__clothes{
+        padding: 0;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .title{
+        height: 130px;
+    }
+    .title__gender{
+        font-size: 27px;
+    }
+    .text__clothes__name{
+        font-size: 15px;
+    }
+    .text__clothes__name{
+        font-size: 15px;
+    }
+    .text__clothes__price{
+        font-size: 15px;
+    }
+    .el__nav{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 768px) {
+    .general{
+        width: 490px;
+    }
+    .describe__clothes{
+        font-size: 14px;
+    }
+    .information__good{
+        height: 200px;
+    }
+    .wrapper__total{
+        font-size: 15px;
+    }
+    .title__payment{
+        font-size: 15px;
+    }
+    .shipping,
+    .subtotal,
+    .total{
+        font-size: 14px;
+    }
+
+    .purchase__button{
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .current__good{
+        height: 200px;
+    }
+    .quantity__section{
+        font-size: 14px;
+    }
+    .price__one__section{
+        font-size: 14px;
+    }
+    .name__section{
+        font-size: 15px;
+    }
+
+    .image__current{
+        height: 200px;
+    }
+    .title__gender{
+        font-size: 22px;
+    }
+    .description__clothing{
+        height: 160px;
+
+    }
+    .current__clothes{
+        width: 33%;
+    }
+    .title{
+        height: 120px;
+    }
+    .title__head__text{
+        font-size: 30px;
+    }
+    .button__card{
+        font-size: 14px;
+    }
+    .el__nav{
+        font-size: 15px;
+    }
+    .header__wrapper{
+        padding-inline: 40px;
+    }
+    .main__logo{
+        width: 40px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .general{
+        width: 340px;
+    }
+    .current__good{
+        height: 150px;
+    }
+
+    .quantity__section{
+        font-size: 13px;
+    }
+    .price__one__section{
+        font-size: 13px;
+    }
+    .name__section{
+        font-size: 14px;
+    }
+
+
+
+
+    .image__current{
+        height: 150px;
+    }
+    .information__good{
+        height: 150px;
+    }
+    .wrapper__total{
+        font-size: 13px;
+    }
+    .title__payment{
+        font-size: 13px;
+    }
+    .shipping,
+    .subtotal,
+    .total{
+        font-size: 13px;
+    }
+
+    .purchase__button{
+        padding: 5px;
+        font-size: 12px;
+    }
+
+
+
+    .describe__clothes{
+        font-size: 12px;
+
+    }
+    .title__gender{
+        font-size: 17px;
+    }
+    .description__clothing{
+        height: 165px;
+
+    }
+    .current__clothes{
+        width: 50%;
+    }
+    .title{
+        height: 73px;
+    }
+    .title__head__text{
+        font-size: 23px;
+    }
+    .button__card{
+        font-size: 13px;
+    }
+    .el__nav{
+        font-size: 13px;
+    }
+    .header__wrapper{
+        padding-inline: 20px;
+    }
+    .main__logo{
+        width: 38px;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .general{
+        width: 310px;
+    }
+    .describe__clothes{
+        font-size: 12px;
+
+    }
+
+
+
+
+    .title__gender{
+        font-size: 15px;
+    }
+    .description__clothing{
+        height: 210px;
+
+    }
+    .current__clothes{
+        width: 50%;
+    }
+    .title{
+        height: 73px;
+    }
+    .title__head__text{
+        font-size: 20px;
+    }
+    .button__card{
+        font-size: 11px;
+    }
+    .text__clothes__name{
+        font-size: 13px;
+    }
+    .text__clothes__price{
+        font-size: 13px;
+    }
+    .header__wrapper{
+        padding-top: 2px;
+        padding-inline: 10px;
+    }
+    .main__logo{
+        width: 36px;
+    }
+
+}
+
+@media (max-width: 340px) {
+    .el__nav{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 290px) {
+    .el__nav{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .description__clothing{
+
+        height: 188px;
+
+    }
+    .describe__clothes{
+        font-size: 11px;
+
+    }
+    .title__head__text{
+        font-size: 18px;
+    }
+    .title__gender{
+        font-size: 13px;
+    }
+    .button__card{
+        font-size: 10px;
+    }
+    .header__wrapper{
+        padding-top: 4px;
+        padding-inline: 10px;
+    }
+}
+
+.button__photo{
+    border-style: none;
+    background-color: transparent;
+}
+
+

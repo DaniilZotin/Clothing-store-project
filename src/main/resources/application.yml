@@ -1,0 +1,38 @@
+spring:
+  datasource:
+    url: jdbc:mysql://b2105ad320bba9:f00b574c@us-cdbr-east-06.cleardb.net/heroku_7599d17c0fb641a?reconnect=true
+    username: b2105ad320bba9
+    password: f00b574c
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: none
+  main:
+    banner-mode: off
+  thymeleaf:
+    prefix: classpath:/templates/
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: daniil3.30.2018@gmail.com
+    password: umyqdnjagdyfrmvw
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+
+
+logging:
+  level:
+    org.springframework: Error
+
+
+
+paypal:
+  mode: sandbox
+  client:
+    id: ASdeLcpEtBVvBiJtS6woBT9xZ3WaTY8aRywe7bPuyimJt-RcxT7fHuYwnpKIIdlhRQw4a_jQtwdncNp2
+    secret: EBDWYdJQCiX-dV1UgZohbzFuBIdB-g8J6qwjkUfeNz4PjUVbS-DmAAYIW-4ibPmQYxEkTLKH9vI3AsQ4

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="style-main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap" rel="stylesheet">
+
+    <link th:href="@{/styles/styles-intros.css}" rel="stylesheet">
+</head>
+<body>
+  <header class="main__header">
+    <div class="header__wrapper">
+      <img style="width: 45px;" src="../images/config/logo/logoMain.png">
+      <nav>
+        <a class="el__nav" href="#">Convinion</a>
+        <a class="el__nav" href="#">Fast Delivery</a>
+        <a class="el__nav" href="#">Service</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="intro">
+    <div class="general">
+      <div class="title">
+        <div class="category__small">
+          <nav>
+            <form th:method="GET" th:action="@{/choice}" th:object="${kind}" class="category-form">
+              <input th:value="WOMEN" type="hidden"  name="gender" id="genderW" >
+              <button class="button__category">Women</button>
+            </form>
+
+            <form th:method="GET" th:action="@{/choice}" th:object="${kind}" class="category-form">
+              <input th:value="MEN" type="hidden"  name="gender" id="genderM" >
+              <button class="button__category">Men</button>
+            </form>
+
+            <form th:method="GET" th:action="@{/choice}" th:object="${kind}" class="category-form">
+              <input th:value="KIDS" type="hidden"  name="gender" id="genderK" >
+              <button class="button__category">Kids</button>
+            </form>
+
+          </nav>
+        </div>
+        <div class="title__text">
+          <h1 class="title__head__text">Kamerdiano</h1>
+        </div>
+        <div class="basket__logo">
+
+          <img class="image__basket" src="../images/config/other/basket.png">
+          <form th:method="GET" th:action="@{/showBasket}" th:object="${basket}">
+            <button class="button__card">Card</button>
+          </form>
+
+        </div>
+      </div>
+      <p class="text__title__category">Select the section that interests you</p>
+      <div class="category__people">
+        <div class="block__chose">
+          <div class="women__block">
+            <div class="wrapper__button">
+
+              <form th:method="GET" th:action="@{/choice}" th:object="${kind}">
+                <input th:value="WOMEN" type="hidden"  name="gender" id="gender" >
+                <button class="button__women">Women</button>
+              </form>
+
+            </div>
+          </div>
+          <div class="men__block">
+            <div class="wrapper__button">
+
+              <form th:method="GET" th:action="@{/choice}" th:object="${kind}">
+                <input th:value="MEN" type="hidden"  name="gender" id="gender1">
+                <button class="button__men">Men</button>
+              </form>
+
+            </div>
+          </div>
+          <div class="kids__block">
+            <div class="wrapper__button">
+
+              <form th:method="GET" th:action="@{/choice}" th:object="${kind}">
+                <input th:value="KIDS" type="hidden"  name="gender" id="gender2">
+                <button class="button__kids">Kids</button>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="why__we">
+        <div class="description__benefit">
+          <div class="wrapper__benefit">
+            <div class="first__benefit">
+              <div class="circle">
+                <img style="width: 75px;" src="../images/config/benefits/delivery.png">
+              </div>
+            </div>
+            <div class="second__benefit">
+              <div class="circle">
+                <img style="width: 79px;" src="../images/config/benefits/comfort.png">
+              </div>
+            </div>
+            <div class="third__benefit">
+              <div class="circle">
+                <img style="width: 62px;" src="../images/config/benefits/wallet.png">
+              </div>
+            </div>
+          </div>
+
+          <div class="info__about__each__benefit">
+            <div class="info__first">
+              <div class="text__about__benefit">
+                <p class="title__text__benefit">So fast delivery in your sity</p>
+
+                <p class="general__text__benefit">
+                  Shipping to any city within 1-2 days, you can also order a courier who will bring things directly to your home.
+                </p>
+              </div>
+            </div>
+            <div class="info__second">
+              <div class="text__about__benefit">
+                <p class="title__text__benefit">You can measure before buying</p>
+
+                <p class="general__text__benefit">
+                  Our delivery departments are large stores where you can try on clothes before buying. Decide whether to buy or not
+                </p>
+              </div>
+            </div>
+            <div class="info__third">
+              <div class="text__about__benefit">
+                <p class="title__text__benefit">Сonvenient payment methods</p>
+
+                <p class="general__text__benefit">
+                  We have different types of payment: card, imposed payment,cash.
+                  Each of our couriers has a terminal.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="company__colobarate">
+            <div class="company__logo">
+              <img style="width: 75px;" src="../images/config/logo/logoAdidas.png">
+            </div>
+            <div class="company__logo">
+              <img style="width: 80px;" src="../images/config/logo/logoNike.png">
+            </div>
+            <div class="company__logo">
+              <img style="width: 100px;" src="../images/config/logo/logoAsics.png">
+            </div>
+            <div class="company__logo">
+              <img style="width: 80px;" src="../images/config/logo/logoLacoste.png">
+            </div>
+            <div class="company__logo">
+              <img style="width: 80px;" src="../images/config/logo/logoMango.png">
+            </div>
+            <div class="company__logo">
+              <img style="width: 130px;" src="../images/config/logo/logoRiverIsland.png">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="about__us">
+    <div class="general__slider__title">
+      <h1>You may to look on our shop inside</h1>
+      <div class="slider__prepare">
+        <div class="slider__current">
+          <div class="slider-container">
+            <div class="menu">
+              <label for="slide-dot-1"></label>
+              <label for="slide-dot-2"></label>
+              <label for="slide-dot-3"></label>
+              <label for="slide-dot-4"></label>
+              <label for="slide-dot-5"></label>
+            </div>
+
+            <input id="slide-dot-1" type="radio" name="slides" checked>
+            <div class="slide slide-1"></div>
+
+            <input id="slide-dot-2" type="radio" name="slides">
+            <div class="slide slide-2"></div>
+
+            <input id="slide-dot-3" type="radio" name="slides">
+            <div class="slide slide-3"></div>
+
+            <input id="slide-dot-4" type="radio" name="slides">
+            <div class="slide slide-4"></div>
+
+            <input id="slide-dot-5" type="radio" name="slides">
+            <div class="slide slide-5"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

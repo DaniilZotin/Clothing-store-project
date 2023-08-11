@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap" rel="stylesheet">
+    <link th:href="@{/styles/style-about-items.css}" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+  <header class="main__header">
+    <div class="header__wrapper">
+      <form th:method="GET" th:action="@{/main}" class="category-form">
+        <button class="button__logo">
+          <img class="main__logo"  src="../images/config/logo/logoMain.png">
+        </button>
+      </form>
+      <nav>
+        <a class="el__nav" href="#">Convinion</a>
+        <a class="el__nav" href="#">Fast Delivery</a>
+        <a class="el__nav" href="#">Service</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="intro">
+    <div class="general">
+      <div class="title">
+        <div class="category__small">
+          <button class="button__card">Online help</button>
+        </div>
+        <div class="title__text">
+          <h1 class="title__head__text">Kamerdiano</h1>
+        </div>
+        <div class="basket__logo">
+          <img class="image__basket" src="../images/config/other/basket.png">
+          <form th:method="GET" th:action="@{/showBasket}" th:object="${basket}">
+            <button class="button__card">Card</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="preconnect">
+        <div class="payment">
+          <h1 th:text="${allDescriptionAboutItem.getName()}" class="title__payment">Faded Stripe Cottin</h1>
+          <div class="price">
+            <p th:text="${allDescriptionAboutItem.getPrice()}" class="text__price">Price</p>
+            <p class="price__price">40</p>
+          </div>
+          <form th:method="POST" th:action="@{/makeOrder}" th:object="${order}">
+            <div class="quantity">
+              <p class="text__quantity">Quantity</p>
+
+                <select th:field="*{quantity}" id="quantity" name="quantity" class="select__quantity">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+
+            </div>
+            <div class="line">
+
+            </div>
+            <button class="purchase__button">Add to basket</button>
+          </form>
+        </div>
+        <div class="photo__clothes">
+          <img class="current__photo" th:src="${allDescriptionAboutItem.getImage()}">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

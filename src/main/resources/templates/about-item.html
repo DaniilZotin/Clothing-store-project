@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form th:method="GET" th:action="@{/showBasket}" th:object="${basket}">
+        <button>My orders</button>
+    </form>
+    <p th:text="${allDescriptionAboutItem.getName()}"></p>
+    <p th:text="${allDescriptionAboutItem.getPrice()}"></p>
+
+    <img style="width: 400px" th:src="${allDescriptionAboutItem.getImage()}">
+    <form th:method="POST" th:action="@{/makeOrder}" th:object="${order}">
+        <select th:field="*{quantity}" id="quantity" name="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <button>Add to basket</button>
+    </form>
+</body>
+</html>
