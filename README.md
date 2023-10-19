@@ -24,4 +24,4 @@ This is my first project, so the code here is terrible, but I'm learning and the
 
 
 [Next.js]: https://img.shields.io/badge/Spring-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
+[Next-url]: https://spring.io/projects/spring-framework
