@@ -32,4 +32,7 @@ This is my first project, so the code here is terrible, but I'm learning and the
 [Thymeleaf]: https://img.shields.io/badge/Thymeleaf-64C448?style=for-the-badge&logo=thymeleaf&logoColor=white
 [Thymeleaf-url]: https://spring.io/projects/spring-framework
 
+[Java]: https://img.shields.io/badge/Thymeleaf-64C448?style=for-the-badge&logo=Java&logoColor=white
+[Java-url]: https://spring.io/projects/spring-framework
+
 
