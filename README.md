@@ -15,7 +15,10 @@ Implementation of an online clothing store. Main functionalities:
 This is my first project, so the code here is terrible, but I'm learning and the main idea was to make a full project and deploy it
 
 ## Build with
-* [![Next][Spring]][Spring-url]
+* [![Spring][Spring]][Spring-url]
+* [![Java][Java]][Java-url]
+* 
+* [![Thymeleaf][Thymeleaf]][Thymeleaf-url]
 
 
 
@@ -25,3 +28,8 @@ This is my first project, so the code here is terrible, but I'm learning and the
 
 [Spring]: https://img.shields.io/badge/Spring-64C448?style=for-the-badge&logo=spring&logoColor=white
 [Spring-url]: https://spring.io/projects/spring-framework
+
+[Thymeleaf]: https://img.shields.io/badge/Thymeleaf-64C448?style=for-the-badge&logo=thymeleaf&logoColor=white
+[Thymeleaf-url]: https://spring.io/projects/spring-framework
+
+
