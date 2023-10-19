@@ -15,7 +15,7 @@ Implementation of an online clothing store. Main functionalities:
 This is my first project, so the code here is terrible, but I'm learning and the main idea was to make a full project and deploy it
 
 ## Build with
-* [![Next][Next.js]][Next-url]
+* [![Next][Spring]][Spring-url]
 
 
 
@@ -23,5 +23,5 @@ This is my first project, so the code here is terrible, but I'm learning and the
 
 
 
-[Next.js]: https://img.shields.io/badge/Spring-000000?style=for-the-badge&logoColor=white
-[Next-url]: https://spring.io/projects/spring-framework
+[Spring]: https://img.shields.io/badge/Spring-64C448?style=for-the-badge&logo=spring&logoColor=white
+[Spring-url]: https://spring.io/projects/spring-framework
