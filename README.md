@@ -13,3 +13,15 @@ Implementation of an online clothing store. Main functionalities:
 6. Checking whether the product is available
 
 This is my first project, so the code here is terrible, but I'm learning and the main idea was to make a full project and deploy it
+
+## Build with
+* [![Next][Next.js]][Next-url]
+
+
+
+
+
+
+
+[Next.js]: https://img.shields.io/badge/Spring-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
