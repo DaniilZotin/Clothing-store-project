@@ -26,13 +26,13 @@ This is my first project, so the code here is terrible, but I'm learning and the
 
 
 
-[Spring]: https://img.shields.io/badge/Spring-64C448?style=for-the-badge&logo=spring&logoColor=white
+[Spring]: https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white
 [Spring-url]: https://spring.io/projects/spring-framework
 
-[Thymeleaf]: https://img.shields.io/badge/Thymeleaf-64C448?style=for-the-badge&logo=thymeleaf&logoColor=white
+[Thymeleaf]: https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white
 [Thymeleaf-url]: https://spring.io/projects/spring-framework
 
-[Java]: https://img.shields.io/badge/Thymeleaf-64C448?style=for-the-badge&logo=Java&logoColor=white
+[Java]: https://img.shields.io/badge/Java-E02027?style=for-the-badge&logo=jameson&logoColor=white
 [Java-url]: https://spring.io/projects/spring-framework
 
 
