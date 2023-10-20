@@ -16,10 +16,19 @@ This is my first project, so the code here is terrible, but I'm learning and the
 
 ## Build with
 * [![Spring][Spring]][Spring-url]
+* [![PayPal][PayPal]][PayPal-url]
 * [![Java][Java]][Java-url]
 * [![Css][Css]][Css-url]
 * [![Html][Html]][Html-url]
 * [![Thymeleaf][Thymeleaf]][Thymeleaf-url]
+
+## Getting Started
+This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
+### Instalation 
+1. Clone the repo
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   ```
 
 
 
@@ -41,4 +50,7 @@ This is my first project, so the code here is terrible, but I'm learning and the
 
 [Html]: https://img.shields.io/badge/Html-E34F26?style=for-the-badge&logo=HTML5&logoColor=white
 [Html-url]: https://spring.io/projects/spring-framework
+
+[PayPal]: https://img.shields.io/badge/PayPal-003087?style=for-the-badge&logo=PayPal&logoColor=white
+[PayPal-url]: https://spring.io/projects/spring-framework
 
