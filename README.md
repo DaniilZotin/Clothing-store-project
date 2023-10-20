@@ -24,7 +24,10 @@ This is my first project, so the code here is terrible, but I'm learning and the
 
 ## Preview
 ### Log in page 
-![image](https://github.com/DaniilZotin/Clothing-store-project/assets/85665335/0e9ff732-c8d7-422c-88a1-e64c9029af93) ![image](https://github.com/DaniilZotin/Clothing-store-project/assets/85665335/848368f4-031a-48e1-a203-b88304dab90c)
+![image](https://github.com/DaniilZotin/Clothing-store-project/assets/85665335/d0b138b0-dcaa-4ab1-b0ea-25d83e9626b6)
+### Main 
+![image](https://github.com/DaniilZotin/Clothing-store-project/assets/85665335/4e055b84-8198-402e-a4f9-a8edf53e302a)
+
 
 
 
