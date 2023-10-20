@@ -22,13 +22,34 @@ This is my first project, so the code here is terrible, but I'm learning and the
 * [![Html][Html]][Html-url]
 * [![Thymeleaf][Thymeleaf]][Thymeleaf-url]
 
+## Preview
+### Log in page 
+![image](https://github.com/DaniilZotin/Clothing-store-project/assets/85665335/0e9ff732-c8d7-422c-88a1-e64c9029af93) ![image](https://github.com/DaniilZotin/Clothing-store-project/assets/85665335/848368f4-031a-48e1-a203-b88304dab90c)
+
+
+
+
+
 ## Getting Started
 This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
 ### Instalation 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/DaniilZotin/Clothing-store-project.git
    ```
+2. Change DB
+   ![image](https://github.com/DaniilZotin/Clothing-store-project/assets/85665335/6bc40be9-9617-4722-bf0d-31e54ee840b0)
+3. Change mail(you must generate own mail host, find tutorial)
+   ![image](https://github.com/DaniilZotin/Clothing-store-project/assets/85665335/d9e89af5-1e19-4162-a659-0da69b292236)
+4. If you want to interact with your PayPal edit this field
+   ![image](https://github.com/DaniilZotin/Clothing-store-project/assets/85665335/b9144e0b-2647-41ad-862c-19ce0c4a18d0)
+5. Set your localhost in PayPal controller
+   ![image](https://github.com/DaniilZotin/Clothing-store-project/assets/85665335/2f87947b-fd2c-4e2a-9182-7993bab3573d)
+6. Insert tables and data in it
+   later I will add files with tables
+8. Build project
+   
+
 
 
 
