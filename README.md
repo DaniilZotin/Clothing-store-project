@@ -25,8 +25,21 @@ This is my first project, so the code here is terrible, but I'm learning and the
 ## Preview
 ### Log in page 
 ![image](https://github.com/DaniilZotin/Clothing-store-project/assets/85665335/d0b138b0-dcaa-4ab1-b0ea-25d83e9626b6)
-### Main 
+### Main (part 1) 
 ![image](https://github.com/DaniilZotin/Clothing-store-project/assets/85665335/4e055b84-8198-402e-a4f9-a8edf53e302a)
+### Main (part 2) 
+![image](https://github.com/DaniilZotin/Clothing-store-project/assets/85665335/4cf310b9-6f7f-4057-9832-d6ed32ef96e2)
+### List of clothes
+![image](https://github.com/DaniilZotin/Clothing-store-project/assets/85665335/2dd90744-8abd-460a-8790-c369a4cf5144)
+### Description 
+![image](https://github.com/DaniilZotin/Clothing-store-project/assets/85665335/a133d5c3-db44-4142-a856-11ae29567ead)
+### Basket
+![image](https://github.com/DaniilZotin/Clothing-store-project/assets/85665335/48668e3d-07c7-4c18-8d97-0ba800e06650)
+### PayPal
+![image](https://github.com/DaniilZotin/Clothing-store-project/assets/85665335/49b0577c-4e22-43e1-a7e3-374449b58bb2)
+
+
+
 
 
 
@@ -34,7 +47,7 @@ This is my first project, so the code here is terrible, but I'm learning and the
 
 
 ## Getting Started
-This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps.
 ### Instalation 
 1. Clone the repo
    ```sh
