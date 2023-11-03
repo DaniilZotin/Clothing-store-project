@@ -2,21 +2,15 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/triangular.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">My clothing store project</h3>
 
   <p align="center">
-    Here you can see description about program and stepts how to clone it
+    Here you can see description about program and stepts how to clone it😉
     <br />
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    
   </p>
 </div>
 
